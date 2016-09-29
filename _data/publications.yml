@@ -1,10 +1,10 @@
 ---
 - title: >
-    Network pharmacology of Jak inhibitors
+    KinasePA: Phosphoproteomics data annotation using hypothesis driven kinase perturbation analysis
   author: >
-    Moodley D, Yoshida H,<u> Mostafavi S</u>, ..., Mathis D, Benoist C. <I>PNAS</I>.
-  image: ../images/jakpaper.png
+    Yang, P., Patrick, E., Humphrey, SJ., Ghazanfar, S., and James, DE., Jothi, R. and Yang, JYH.
   year: 2016
+  journal: Proteomics
   repo:
     name: PubMed
     url: http://www.ncbi.nlm.nih.gov/pubmed/27516546
