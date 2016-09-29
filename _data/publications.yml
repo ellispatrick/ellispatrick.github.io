@@ -6,9 +6,8 @@
   year: 2016
   image: ../images/Publications/2016KinasePA.png
   where: Proteomics
-  repo:
-    name: PubMed
-    url: https://www.ncbi.nlm.nih.gov/pubmed/27145998
+  name: PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/27145998
 
 - title: >
     MicroRNA and mRNA expression profiling in metastatic melanoma reveal associations with BRAF mutation and patient prognosis.
@@ -17,9 +16,8 @@
   year: 2015
   image: ../images/Publications/2015Tembe.png
   where: Pigment Cell Melanoma Res
-  repo:
-    name: PubMed
-    url: https://www.ncbi.nlm.nih.gov/pubmed/25490969
+  name: PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/25490969
 
 - title: >
     Inferring data-specific micro-RNA function through the joint ranking of micro-RNA and pathways from matched micro-RNA and gene expression data.
@@ -28,9 +26,8 @@
   year: 2015
   image: ../images/Publications/2015pMim.png
   where: Bioinformatics
-  repo:
-    name: PubMed
-    url: https://www.ncbi.nlm.nih.gov/pubmed/25910695
+  name: PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/25910695
 	
 - title: >
     Phonological Encoding in Mandarin Chinese: Evidence from Tongue Twisters.
@@ -39,7 +36,7 @@
   year: 2015
   image: ../images/Publications/2015pMim.png
   where: Lang Speech
-  repo:
-    name: PubMed
-    url: https://www.ncbi.nlm.nih.gov/pubmed/27483738
+  name: PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/27483738
+	
 	
