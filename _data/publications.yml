@@ -6,8 +6,9 @@
   year: 2016
   image: ../images/Publications/2016KinasePA.png
   where: Proteomics
-  name: PubMed
-  url: https://www.ncbi.nlm.nih.gov/pubmed/27145998
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/27145998
 
 - title: >
     MicroRNA and mRNA expression profiling in metastatic melanoma reveal associations with BRAF mutation and patient prognosis.
@@ -16,8 +17,9 @@
   year: 2015
   image: ../images/Publications/2015Tembe.png
   where: Pigment cell & melanoma research
-  name: PubMed
-  url: https://www.ncbi.nlm.nih.gov/pubmed/25490969
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/25490969
 
 - title: >
     Inferring data-specific micro-RNA function through the joint ranking of micro-RNA and pathways from matched micro-RNA and gene expression data.
@@ -26,8 +28,9 @@
   year: 2015
   image: ../images/Publications/2015pMim.png
   where: Bioinformatics
-  name: PubMed
-  url: https://www.ncbi.nlm.nih.gov/pubmed/25910695
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/25910695
 
 - title: >
     Phonological Encoding in Mandarin Chinese: Evidence from Tongue Twisters.
@@ -36,8 +39,9 @@
   year: 2015
   image: ../images/Publications/2015Kember.png
   where: Language and Speech
-  name: PubMed
-  url: https://www.ncbi.nlm.nih.gov/pubmed/27483738
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/27483738
 
 - title: >
     Detection of multiple outbreaks using spatio-temporal EWMA-ordered statistics.
@@ -56,8 +60,9 @@
   year: 2014
   image: ../images/Publications/2014Yang.png
   where: Bioinformatics
-  name: PubMed
-  url: https://www.ncbi.nlm.nih.gov/pubmed/24167158
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/24167158
 
 - title: >
     Hepatic metallothionein expression in chronic hepatitis C virus infection is IFNL3 genotype-dependent.
@@ -66,8 +71,9 @@
   year: 2014
   image: ../images/Publications/2014Oconnor.jpg
   where: Genes and immunity
-  name: PubMed
-  url: https://www.ncbi.nlm.nih.gov/pubmed/24335707
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/24335707
 
 - title: >
     Estimation of data-specific constitutive exons with RNA-Seq data.
@@ -76,8 +82,9 @@
   year: 2013
   image: ../images/Publications/2013Exon.jpg
   where: BMC Bioinformatics
-  name: PubMed
-  url: https://www.ncbi.nlm.nih.gov/pubmed/23360225
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/23360225
 
 - title: >
     Impaired Akt phosphorylation in insulin-resistant human muscle is accompanied by selective and heterogeneous downstream defects.
@@ -86,8 +93,9 @@
   year: 2013
   image: ../images/Publications/2013Diabetes.png
   where: Diabetologia
-  name: PubMed
-  url: https://www.ncbi.nlm.nih.gov/pubmed/23344726
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/23344726
 
 - title: >
     Improved moderation for gene-wise variance estimation in RNA-Seq via the exploitation of external information.
@@ -96,5 +104,6 @@
   year: 2013
   image: ../images/Publications/2013Mod.png
   where: BMC Genomics
-  name: PubMed
-  url: https://www.ncbi.nlm.nih.gov/pubmed/23368783
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/23368783
