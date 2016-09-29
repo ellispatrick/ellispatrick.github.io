@@ -2,7 +2,7 @@
 - title: >
     KinasePA: Phosphoproteomics data annotation using hypothesis driven kinase perturbation analysis
   author: >
-    Yang P, <u>Patrick E</u>, Humphrey SJ, Ghazanfar S, and James DE, Jothi R and Yang JYH.
+    Yang P, <u>Patrick E</u>, Humphrey SJ, Ghazanfar S, and James DE, Jothi R, Yang JYH.
   year: 2016
   image: ../images/Publications/2016KinasePA.png
   where: Proteomics
@@ -15,7 +15,7 @@
     Tembe V, Schramm SJ, Stark MS, Patrick E, Jayaswal V, Tang YH, Barbour A, Hayward NK, Thompson JF, Scolyer RA, Yang YH, Mann GJ.
   year: 2015
   image: ../images/Publications/2015Tembe.png
-  where: Pigment Cell Melanoma Res
+  where: Pigment cell & melanoma research
   name: PubMed
   url: https://www.ncbi.nlm.nih.gov/pubmed/25490969
 
@@ -34,7 +34,67 @@
   author: >
     Kember H, Croot K, Patrick E.
   year: 2015
-  image: ../images/Publications/2015pMim.png
-  where: Lang Speech
+  image: ../images/Publications/2015Kember.png
+  where: Language and Speech
   name: PubMed
   url: https://www.ncbi.nlm.nih.gov/pubmed/27483738
+
+- title: >
+    Detection of multiple outbreaks using spatio-temporal EWMA-ordered statistics.
+  author: >
+    Sparks R, Patrick E.
+  year: 2015
+  image: ../images/Publications/2015Sparks.png
+  where: Communications in Statistics-Simulation and Computation
+  name: 
+  url: 
+
+- title: >
+    Direction pathway analysis of large-scale proteomics data reveals novel features of the insulin action pathway.
+  author: >
+    Yang P, Patrick E, Tan SX, Fazakerley DJ, Burchfield J, Gribben C, Prior MJ, James DE, Yang JYH.
+  year: 2014
+  image: ../images/Publications/2014Yang.png
+  where: Bioinformatics
+  name: PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/24167158
+
+- title: >
+    Hepatic metallothionein expression in chronic hepatitis C virus infection is IFNL3 genotype-dependent.
+  author: >
+    O'Connor KS, Parnell G, Patrick E, Ahlenstiel G, Suppiah V, van der Poorten D, Read SA, Leung R, Douglas MW, Yang JYH, Stewart GJ, Liddle C, George J, Booth DR.
+  year: 2014
+  image: ../images/Publications/2014Oconnor.jpg
+  where: Genes and immunity
+  name: PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/24335707
+
+- title: >
+    Estimation of data-specific constitutive exons with RNA-Seq data.
+  author: >
+    Patrick E, Buckley M, Yang YH.
+  year: 2013
+  image: ../images/Publications/2013Exon.jpg
+  where: BMC Bioinformatics
+  name: PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/23360225
+
+- title: >
+    Impaired Akt phosphorylation in insulin-resistant human muscle is accompanied by selective and heterogeneous downstream defects.
+  author: >
+    Tonks KT, Ng Y, Miller S, Coster AC, Samocha-Bonet D, Iseli TJ, Xu A, Patrick E, Yang JY, Junutula JR, Modrusan Z, Kolumam G, Stöckli J, Chisholm DJ, James DE, Greenfield JR.
+  year: 2013
+  image: ../images/Publications/2013Diabetes.png
+  where: Diabetologia
+  name: PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/23344726
+
+- title: >
+    Improved moderation for gene-wise variance estimation in RNA-Seq via the exploitation of external information.
+  author: >
+    Patrick E, Buckley M, Lin DM, Yang YH.
+  year: 2013
+  image: ../images/Publications/2013Mod.png
+  where: BMC Genomics
+  name: PubMed
+  url: https://www.ncbi.nlm.nih.gov/pubmed/23368783
