@@ -19,16 +19,7 @@
   name: PubMed
   url: https://www.ncbi.nlm.nih.gov/pubmed/25490969
 
-- title: >
-    Inferring data-specific micro-RNA function through the joint ranking of micro-RNA and pathways from matched micro-RNA and gene expression data.
-  author: >
-    Patrick E, Buckley M, Müller S, Lin DM, Yang JYH.
-  year: 2015
-  image: ../images/Publications/2015pMim.png
-  where: Bioinformatics
-  name: PubMed
-  url: https://www.ncbi.nlm.nih.gov/pubmed/25910695
-	
+
 - title: >
     Phonological Encoding in Mandarin Chinese: Evidence from Tongue Twisters.
   author: >
