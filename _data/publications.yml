@@ -13,7 +13,7 @@
 - title: >
     MicroRNA and mRNA expression profiling in metastatic melanoma reveal associations with BRAF mutation and patient prognosis.
   author: >
-    Tembe V, Schramm SJ, Stark MS, Patrick E, Jayaswal V, Tang YH, Barbour A, Hayward NK, Thompson JF, Scolyer RA, Yang YH, Mann GJ.
+    Tembe V, Schramm SJ, Stark MS, <u>Patrick E</u>, Jayaswal V, Tang YH, Barbour A, Hayward NK, Thompson JF, Scolyer RA, Yang YH, Mann GJ.
   year: 2015
   image: ../images/Publications/2015Tembe.png
   where: Pigment cell & melanoma research
@@ -24,7 +24,7 @@
 - title: >
     Inferring data-specific micro-RNA function through the joint ranking of micro-RNA and pathways from matched micro-RNA and gene expression data.
   author: >
-    Patrick E, Buckley M, Muller S, Lin DM, Yang JYH.
+    <u>Patrick E</u>, Buckley M, Muller S, Lin DM, Yang JYH.
   year: 2015
   image: ../images/Publications/2015pMim.png
   where: Bioinformatics
@@ -35,7 +35,7 @@
 - title: >
     Phonological Encoding in Mandarin Chinese: Evidence from Tongue Twisters.
   author: >
-    Kember H, Croot K, Patrick E.
+    Kember H, Croot K, <u>Patrick E</u>.
   year: 2015
   image: ../images/Publications/2015Kember.png
   where: Language and Speech
@@ -46,7 +46,7 @@
 - title: >
     Detection of multiple outbreaks using spatio-temporal EWMA-ordered statistics.
   author: >
-    Sparks R, Patrick E.
+    Sparks R, <u>Patrick E</u>.
   year: 2015
   image: ../images/Publications/2015Sparks.png
   where: Communications in Statistics-Simulation and Computation
@@ -56,7 +56,7 @@
 - title: >
     Direction pathway analysis of large-scale proteomics data reveals novel features of the insulin action pathway.
   author: >
-    Yang P, Patrick E, Tan SX, Fazakerley DJ, Burchfield J, Gribben C, Prior MJ, James DE, Yang JYH.
+    Yang P, <u>Patrick E</u>, Tan SX, Fazakerley DJ, Burchfield J, Gribben C, Prior MJ, James DE, Yang JYH.
   year: 2014
   image: ../images/Publications/2014Yang.png
   where: Bioinformatics
@@ -67,7 +67,7 @@
 - title: >
     Hepatic metallothionein expression in chronic hepatitis C virus infection is IFNL3 genotype-dependent.
   author: >
-    O'Connor KS, Parnell G, Patrick E, Ahlenstiel G, Suppiah V, van der Poorten D, Read SA, Leung R, Douglas MW, Yang JYH, Stewart GJ, Liddle C, George J, Booth DR.
+    O'Connor KS, Parnell G, <u>Patrick E</u>, Ahlenstiel G, Suppiah V, van der Poorten D, Read SA, Leung R, Douglas MW, Yang JYH, Stewart GJ, Liddle C, George J, Booth DR.
   year: 2014
   image: ../images/Publications/2014Oconnor.jpg
   where: Genes and immunity
@@ -78,7 +78,7 @@
 - title: >
     Estimation of data-specific constitutive exons with RNA-Seq data.
   author: >
-    Patrick E, Buckley M, Yang YH.
+    <u>Patrick E</u>, Buckley M, Yang YH.
   year: 2013
   image: ../images/Publications/2013Exon.jpg
   where: BMC Bioinformatics
@@ -89,7 +89,7 @@
 - title: >
     Impaired Akt phosphorylation in insulin-resistant human muscle is accompanied by selective and heterogeneous downstream defects.
   author: >
-    Tonks KT, Ng Y, Miller S, Coster AC, Samocha-Bonet D, Iseli TJ, Xu A, Patrick E, Yang JY, Junutula JR, Modrusan Z, Kolumam G, Stöckli J, Chisholm DJ, James DE, Greenfield JR.
+    Tonks KT, Ng Y, Miller S, Coster AC, Samocha-Bonet D, Iseli TJ, Xu A, <u>Patrick E</u>, Yang JY, Junutula JR, Modrusan Z, Kolumam G, Stöckli J, Chisholm DJ, James DE, Greenfield JR.
   year: 2013
   image: ../images/Publications/2013Diabetes.png
   where: Diabetologia
@@ -100,7 +100,7 @@
 - title: >
     Improved moderation for gene-wise variance estimation in RNA-Seq via the exploitation of external information.
   author: >
-    Patrick E, Buckley M, Lin DM, Yang YH.
+    <u>Patrick E</u>, Buckley M, Lin DM, Yang YH.
   year: 2013
   image: ../images/Publications/2013Mod.png
   where: BMC Genomics
