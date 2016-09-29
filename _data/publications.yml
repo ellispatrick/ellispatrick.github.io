@@ -2,12 +2,13 @@
 - title: >
     KinasePA: Phosphoproteomics data annotation using hypothesis driven kinase perturbation analysis
   author: >
-    Yang, P., Patrick, E., Humphrey, SJ., Ghazanfar, S., and James, DE., Jothi, R. and Yang, JYH.
+    Yang P, <u>Patrick E</u>, Humphrey SJ, Ghazanfar S, and James DE, Jothi R and Yang JYH.
   year: 2016
-  journal: Proteomics
+  image: ../images/KinasePA.png
+  where: Proteomics
   repo:
     name: PubMed
-    url: http://www.ncbi.nlm.nih.gov/pubmed/27516546
+    url: https://www.ncbi.nlm.nih.gov/pubmed/27145998
 
 
 - title: >
