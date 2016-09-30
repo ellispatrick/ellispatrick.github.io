@@ -9,9 +9,9 @@
 title: Postdoctoral Fellow
 email: epatrick@broadinstitute.org
 description: > # this means to ignore newlines until "baseurl:"
-  Ellis Patrick, Harvard Medical School
+  Ellis Patrick, Harvard Medical School, Statistician, Computational Biologist, Bioinformatition, Alzheimer's Disease, MS, Melanoma.
 # baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://cubranic.github.io" # the base hostname & protocol for your site
+ url: "http://ellispatrick.github.io" # the base hostname & protocol for your site
 twitter_username: TheEllisPatrick
 github_username:  ellispatrick
 
@@ -22,4 +22,7 @@ markdown: kramdown
 paginate: 5
 paginate_path: "/news/:num/"
 
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
