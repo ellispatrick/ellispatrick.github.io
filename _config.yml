@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Ellis Patrick University of Sydney
+title: Ellis Patrick
 email: epatrick@broadinstitute.org
 description: > # this means to ignore newlines until "baseurl:"
   The website of Ellis Patrick. Harvard Medical School, Sydney University. Statistician, Computational Biologist, Bioinformatition, Alzheimer's Disease, MS, Melanoma.
 # baseurl: "" # the subpath of your site, e.g. /blog
- url: "http://ellispatrick.github.io" # the base hostname & protocol for your site
+url: "http://ellispatrick.github.io" # the base hostname & protocol for your site
 twitter_username: TheEllisPatrick
 github_username:  ellispatrick
 
