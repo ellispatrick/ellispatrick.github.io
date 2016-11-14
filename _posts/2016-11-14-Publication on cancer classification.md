@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  New publication on cancer classification
-date:   2016-09-28
+title:  New publication on survival estimates for cancer patients.
+date:   2016-11-14
 excerpt: >
   Oncotarget recently accepted our manuscript describing methodology for integrating clinical and gene expression data to improve survival estimates of cancer patients. 
 ---
