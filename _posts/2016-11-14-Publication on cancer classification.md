@@ -6,7 +6,7 @@ excerpt: >
   Oncotarget recently accepted our manuscript describing methodology for integrating clinical and gene expression data to improve survival estimates of cancer patients. 
 ---
 
-Oncotarget recently accepted our manuscript describing methodology for integrating clinical and gene expression data to improve survival estimates of cancer patients. Check it out on Thanks to <a href="https://www.ncbi.nlm.nih.gov/pubmed/27833072" target="_blank">Pubmed</a> 
+Oncotarget recently accepted our manuscript describing methodology for integrating clinical and gene expression data to improve survival estimates of cancer patients. Check it out on <a href="https://www.ncbi.nlm.nih.gov/pubmed/27833072" target="_blank">Pubmed</a> 
 
 
 ### Abstract
