@@ -1,5 +1,16 @@
 ---
 - title: >
+    A multi-step classifier addressing cohort heterogeneity improves performance of prognostic biomarkers in three cancer types.
+  author: >
+    <u>Patrick E</u>, Schramm SJ, Ormerod JT, Scolyer RA, Mann GJ, Mueller S, Yang JYH.
+  year: 2016
+  image: ../images/Publications/2016TwoStage.png
+  where: Oncotarget
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/27833072
+   
+- title: >
     KinasePA: Phosphoproteomics data annotation using hypothesis driven kinase perturbation analysis
   author: >
     Yang P, <u>Patrick E</u>, Humphrey SJ, Ghazanfar S, and James DE, Jothi R, Yang JYH.
