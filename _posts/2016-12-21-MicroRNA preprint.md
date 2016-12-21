@@ -6,7 +6,7 @@ excerpt: >
   Preprint - Dissecting the role of non-coding RNAs in the accumulation of amyloid and tau neuropathologies in Alzheimer's disease.
 ---
 
-Check out my preprint on biorXiv <a href="https://www.ncbi.nlm.nih.gov/pubmed/27833072" target="_blank">here.</a> 
+Check out my preprint on biorXiv <a href="http://biorxiv.org/content/early/2016/12/17/095067" target="_blank">here.</a> 
 
 ### Abstract
 
