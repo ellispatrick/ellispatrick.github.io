@@ -146,3 +146,21 @@ p.pub-abstract {
 .pagination {
     text-align: center;
 }
+
+
+.video figure { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  margin-bottom: 25px;
+}
+
+.video iframe, .video object, .video embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}
+
