@@ -7,9 +7,9 @@
 
 # Site settings
 title: Ellis Patrick
-email: epatrick@broadinstitute.org
+email: ellis.patrick@sydney.edu.au
 description: > # this means to ignore newlines until "baseurl:"
-  The website of Ellis Patrick. Harvard Medical School, Sydney University. Statistician, Computational Biologist, Bioinformatition, Alzheimer's Disease, MS, Melanoma.
+  The website of Ellis Patrick. Sydney University. Statistician, Computational Biologist, Bioinformatition, Alzheimer's Disease, MS, Melanoma.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ellispatrick.github.io" # the base hostname & protocol for your site
 twitter_username: TheEllisPatrick
