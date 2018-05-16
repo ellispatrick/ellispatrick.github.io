@@ -1,4 +1,16 @@
 ---
+
+- title: >
+    Dissecting the role of non-coding RNAs in the accumulation of amyloid and tau neuropathologies in Alzheimer’s disease.
+  author: >
+    <u>Patrick E</u>, Rajagopal S, Wong H-KA, McCabe C, Xu J, Tang A, Imboywa SH, Schneider JA, Pochet N, Krichevsky AM, Chibnik LB, Bennett DA, De Jager PL.
+  year: 2017
+  image: ../images/Publications/2017microRNA.png
+  where: Molecular Neurodegeneration
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/28668092
+   
 - title: >
     A multi-step classifier addressing cohort heterogeneity improves performance of prognostic biomarkers in three cancer types.
   author: >
@@ -13,7 +25,7 @@
 - title: >
     KinasePA: Phosphoproteomics data annotation using hypothesis driven kinase perturbation analysis
   author: >
-    Yang P, <u>Patrick E</u>, Humphrey SJ, Ghazanfar S, and James DE, Jothi R, Yang JYH.
+    Yang P*, <u>Patrick E*</u>, Humphrey SJ, Ghazanfar S, and James DE, Jothi R, Yang JYH.
   year: 2016
   image: ../images/Publications/2016KinasePA.png
   where: Proteomics
@@ -67,7 +79,7 @@
 - title: >
     Direction pathway analysis of large-scale proteomics data reveals novel features of the insulin action pathway.
   author: >
-    Yang P, <u>Patrick E</u>, Tan SX, Fazakerley DJ, Burchfield J, Gribben C, Prior MJ, James DE, Yang JYH.
+    Yang P*, <u>Patrick E*</u>, Tan SX, Fazakerley DJ, Burchfield J, Gribben C, Prior MJ, James DE, Yang JYH.
   year: 2014
   image: ../images/Publications/2014Yang.png
   where: Bioinformatics
