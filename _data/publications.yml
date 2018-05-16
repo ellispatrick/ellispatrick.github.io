@@ -1,5 +1,48 @@
 ---
-
+- title: >
+    A transcriptomic atlas of aged human microglia.
+  author: >
+    Olah M*, <u>Patrick E*</u>, Villani AC, Xu J, White CC, Ryan KJ, Piehowski P, Kapasi A, Nejad P, Cimpean M, Connor S, Yung CJ, Frangieh M, McHenry A, Elyaman W, Petyuk V, Schneider JA, Bennett DA, De Jager PL, Bradshaw EM.
+  year: 2018
+  image: ../images/Publications/2017MG.png
+  where: Nature Communications
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/29416036
+   
+- title: >
+    Taking Kidneys for Granted? Time to Reflect on the Choices We Make.
+  author: >
+    Wong G, Howell M, <u>Patrick E</u>, Yang J.
+  year: 2017
+  image: ../images/Publications/2017kidney.jpg
+  where: Transplantation
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/28640067
+   
+- title: >
+    Clinical course, therapeutic responses and outcomes in relapsing MOG antibody-associated demyelination.
+  author: >
+    Ramanathan S, Mohammad S, Tantsis E, Nguyen TK, Merheb V, Fung VS, White OB, Broadley S, Lechner-Scott J, Vucic S, Henderson APD, Barnett MH, Reddel SW, Brilot F, Dale RC on behalf of the <u>Australasian and New Zealand MOG Study Group</u>.
+  year: 2017
+  image: ../images/Publications/2017MOG.png
+  where: Journal of Neurology, Neurosurgery and Psychiatry
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/29142145
+ 
+- title: >
+    An xQTL map integrates the genetic architecture of the human brain's transcriptome and epigenome.
+  author: >
+    Ng B, White CC, Klein HU, Sieberts SK, McCabe C, <u>Patrick E</u>, Xu J, Yu L, Gaiteri C, Bennett DA, Mostafavi S, De Jager PL.
+  year: 2017
+  image: ../images/Publications/2017eQTL.png
+  where: Nature Neuroscience
+  repo:
+   name: PubMed
+   url: https://www.ncbi.nlm.nih.gov/pubmed/28869584
+   
 - title: >
     Dissecting the role of non-coding RNAs in the accumulation of amyloid and tau neuropathologies in Alzheimer’s disease.
   author: >
