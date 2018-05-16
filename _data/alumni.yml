@@ -1,10 +1,7 @@
 ---
-- name: Leila Methnani
-  role: Undergraduate Student - Comp Sci
-  photo: "/images/Leila.png"
-  lnp: Currently 4th year undergraduate at UBC
+- name: Kate Brewer
+  role: Honours student
+  photo: "/images/Kate.jpg"
+  lnp: Mendelian randomization with gene expression and SNP data
+  current: Currently working at AIHW
 
-- name: Linda Liu
-  role: Undergradaute Student - Stats & CS
-  photo: "/images/linda3.jpg"
-  lnp: Currently Co-op student at SAP

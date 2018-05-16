@@ -1,36 +1,16 @@
 ---
-- name: Sara Mostafavi
+- name: Ellis Patrick
   role: Principal Investigator
-  photo: "images/saram.png"
+  photo: "images/EllisSquare.jpg"
   
-- name: Bernard Ng
-  role: Postdoctoral Fellow
-  photo: "/images/Bernard.jpg"
+- name: Madeleine Otway
+  role: PhD student
+  program: SWATH mass spectrometry in epilepsy
+  photo: "images/Madi.jpg"
   
-- name: Joanna Lubieniecki
-  role: Research Associate
-  photo: "/images/Joanna.jpg"
-  
-- name: Louie Dinh
-  role: MSc Student - Comp Sci
-  program: co-advised by Raymond Ng
-  photo: "/images/Louie.jpg"
-  
-- name: Farnush Kiadeh
-  role: MSc Student - Bioinformatics
-  photo: "/images/Farnush.png"
-
-- name: Halldor Thorhallsson
-  role: MSc Student - Comp Sci
-  program: co-advised by Raymond Ng
-  photo: "/images/Halldor.jpeg"
-  
-- name: Emma Graham
-  role: MSc Student - Bioinformatics
-  photo: "/images/Emma.jpg"
-  
-- name: Peter West
-  role: Undergradaute Student - Comp Sci
-  photo: "/images/peter.jpg"
+- name: Nick Canete
+  role: Honours student
+  program: Imaging Mass Cytometry in HIV
+  photo: "images/Nick.jpg"
 
 
