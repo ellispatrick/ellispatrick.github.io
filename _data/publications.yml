@@ -1,5 +1,16 @@
 ---
 - title: >
+    A molecular network of the aging human brain provides insights into the pathology and cognitive decline of Alzheimer’s disease.
+  author: >
+    Mostafavi S, Gaiteri S, Sullivan SE, White CC, Tasaki S, Xu J, Taga M, Klein HU, <u>Patrick E</u>, Komashko V, McCabe C, Smith R, Bradshaw EM, Root DE, Regev A, Yu L, Chibnik LB, Schneider JA, Young-Pearse TL, Bennett DA, De Jager PL.
+  year: 2018
+  image: ../images/Publications/2018109.jpg
+  where: Nature Neuroscience
+  repo:
+   name: PubMed
+   url: https://www.nature.com/articles/s41593-018-0154-9
+
+- title: >
     A transcriptomic atlas of aged human microglia.
   author: >
     Olah M*, <u>Patrick E*</u>, Villani AC, Xu J, White CC, Ryan KJ, Piehowski P, Kapasi A, Nejad P, Cimpean M, Connor S, Yung CJ, Frangieh M, McHenry A, Elyaman W, Petyuk V, Schneider JA, Bennett DA, De Jager PL, Bradshaw EM.
