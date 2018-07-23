@@ -7,12 +7,17 @@
   role: PhD student
   program: SWATH mass spectrometry in epilepsy
   photo: "images/Madi.jpg"
+
+- name: Heeva Baharlou
+  role: PhD student
+  program: Imaging Mass Cytometry in HIV
+  photo: "images/Heeva.jpg"
   
 - name: Nick Canete
   role: Honours student
   program: Imaging Mass Cytometry in HIV
   photo: "images/Nick.jpg"
-  
+
 - name: Jasmine Yuan
   role: Honours student
   program: Imaging Mass Cytometry in HIV
