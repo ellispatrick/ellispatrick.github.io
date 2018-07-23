@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 <h1 class="news">News</h1>
@@ -7,10 +7,16 @@ layout: default
 {% for post in paginator.posts %}
 
 <div class="item">
-<p> <a class="post-link" href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }}</a></p>
     <p>
         {{post.title}}
     </p>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+    <div class="content">
+        <p>
+            {{post.excerpt}}
+        </p>
+    </div>
 
 </div>
 
