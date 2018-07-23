@@ -2,6 +2,9 @@
 <h4 class="news"><a href="news">Recent News</a></h4>
 
 {% for post in site.posts limit: 5 %}
-<p> <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> </p>
-<p> <a class="post-link" href="{{ post.url }}">{{ post.title }}</a></p>
+<a class="post-link" href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }}</a><br>
+{{ post.title }}
+
+<p></p>
+
 {% endfor %}
