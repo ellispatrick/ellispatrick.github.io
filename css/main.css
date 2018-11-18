@@ -93,9 +93,15 @@ footer .social-media-list li {
     display: inline-block;
 	/*color: #444*/
 	color: white;
+	a:link { color: white; }
+	
 }
 
+footer .social-media-list a {
 
+	color: white;
+	
+}
 
 .icon > svg {
     display: inline-block;
