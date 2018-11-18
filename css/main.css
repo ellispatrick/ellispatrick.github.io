@@ -86,15 +86,19 @@ footer .social-media-list {
     list-style: none;
     margin-left: 0;
 	/*color: #444*/
-	color: rgba(150, 150, 150, 1);
+	color: white;
 }
 
 footer .social-media-list li {
     display: inline-block;
 	/*color: #444*/
-	color: rgba(150, 150, 150, 1);
+	color: white;
+	link { color: white; }
 }
 
+footer .social-media-list.link {
+      color: white; 
+}
 
 .icon > svg {
     display: inline-block;
