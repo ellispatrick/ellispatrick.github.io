@@ -1,5 +1,58 @@
 ---
+- title: >
+    Standardisation of flow cytometry for whole blood immunophenotyping of islet transplant and transplant clinical trial recipients.
+  author: >
+    Vera EJ, Chew YV, Nicholson L, Burns H, Anderson P, Chen HT, Williams L, Keung K, Zanjani NT, Dervish S, <u>Patrick E</u>, Wang XM, Yi S, Hawthorne W, Alexander S, O'Connell PJ, Hu M. 
+  year: 2019
+  image: ../images/Publications/2019FlowVar.jpg
+  where: PloS one
+  repo:
+   name: PubMed
+   url: https://www-ncbi-nlm-nih-gov/pubmed/31116766
+   
+- title: >
+    Blood CRP levels are elevated in children and adolescents with functional neurological symptom disorder.
+  author: >
+    Kozlowska K, Chung J, Cruickshank B, McLean L, Scher S, Dale RC, Mohammad SS, Singh-Grewal D, Prabhuswamy MY, <u>Patrick E</u>. 
+  year: 2019
+  image: ../images/Publications/2019Blood.jpg
+  where: European Child & Adolescent Psychiatry
+  repo:
+   name: PubMed
+   url: https://www-ncbi-nlm-nih-gov/pubmed/30143887
+   
+- title: >
+    Polygenic analysis of inflammatory disease variants and effects on microglia in the aging brain.
+  author: >
+    Felsky D, <u>Patrick E</u>, Schneider JA, Mostafavi S, Gaiteri C, Patsopoulos N, Bennett DA, De Jager PL. 
+  year: 2018
+  image: ../images/Publications/2018Risk.jpg
+  where: Molecular Neurodegeneration
+  repo:
+   name: PubMed
+   url: https://www-ncbi-nlm-nih-gov/pubmed/30041668
 
+- title: >
+    DCARS: differential correlation across ranked samples.
+  author: >
+    Ghazanfar S, Strbenac D, Ormerod JT, Yang JY, <u>Patrick E</u>. 
+  year: 2018
+  image: ../images/Publications/2018DCARS.jpg
+  where: Bioinformatics
+  repo:
+   name: PubMed
+   url: https://www-ncbi-nlm-nih-gov/pubmed/30102408
+- title: >
+    Reproductive period and epigenetic modifications of the oxidative phosphorylation pathway in the human prefrontal cortex.
+  author: >
+    Bove RM*, <u>Patrick E*</u>, Aubin CM, Srivastava G, Schneider JA, Bennett DA, De Jager PL, Chibnik LB.
+  year: 2018
+  image: ../images/Publications/2018Sex.jpg
+  where: PloS one
+  repo:
+   name: PubMed
+   url: https://www-ncbi-nlm-nih-gov/pubmed/30052629
+   
 - title: >
     Clinical course, therapeutic responses and outcomes in relapsing MOG antibody-associated demyelination.
   author: >
