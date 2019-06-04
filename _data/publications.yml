@@ -1,4 +1,16 @@
 ---
+
+- title: >
+    Clinical course, therapeutic responses and outcomes in relapsing MOG antibody-associated demyelination.
+  author: >
+    Australasian and New Zealand MOG Study Group.
+  year: 2018
+  image: ../images/Publications/2018MOG.jpg
+  where: Journal of Neurology, Neurosurgery & Psychiatry 
+  repo:
+   name: PubMed
+   url: https://www-ncbi-nlm-nih-gov/pubmed/29142145
+   
 - title: >
     A molecular network of the aging human brain provides insights into the pathology and cognitive decline of Alzheimer’s disease.
   author: >
