@@ -1,25 +1,40 @@
 ---
 - name: Ellis Patrick
   role: Principal Investigator
-  photo: "images/EllisSquare.jpg"
+  photo: "https://github.com/ellispatrick.png"
+  other: "https://github.com/ellispatrick"
+  
+- name: Nick Canete
+  role: PhD student
+  photo: "images/Nick.jpg"
+  other: "https://github.com/nickcee"
+  
+- name: Adam Chan
+  role: PhD student
+  photo: "https://media-exp1.licdn.com/dms/image/C5603AQF6C4V5rosOTQ/profile-displayphoto-shrink_400_400/0?e=1602720000&v=beta&t=PK2-NUuHTGeVu-gqDk6ATjcthsZUifU0nLTOo6Y_SZU"
   
 - name: Madeleine Otway
   role: PhD student
-  program: SWATH mass spectrometry in epilepsy
   photo: "images/Madi.jpg"
-
+  other: "https://github.com/madeleineotway"
+  
 - name: Heeva Baharlou
   role: PhD student
-  program: Imaging Mass Cytometry in HIV
   photo: "images/Heeva.jpg"
   
-- name: Nick Canete
+- name: Thomas Ye
   role: Honours student
-  program: Imaging Mass Cytometry in HIV
-  photo: "images/Nick.jpg"
-
-- name: Jasmine Yuan
+  
+- name: Alan Burzevski
   role: Honours student
-  program: Imaging Mass Cytometry in HIV
-  photo: "images/Jasmine.jpg"
-
+  photo: "https://github.com/alanburzevski.png"
+  other: "https://github.com/alanburzevski"
+ 
+- name: Harry Robertson
+  role: Honours student
+  
+- name: Celso Milne
+  role: Undergraduate
+  photo: "https://github.com/celsomilne.png" 
+  other: "https://github.com/celsomilne"
+  

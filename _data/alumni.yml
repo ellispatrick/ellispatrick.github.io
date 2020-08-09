@@ -3,5 +3,7 @@
   role: Honours student
   photo: "/images/Kate.jpg"
   lnp: Mendelian randomization with gene expression and SNP data
-  current: Currently working at AIHW
-
+- name: Jasmine Yuan
+  role: Honours student
+  lnp: Imaging Mass Cytometry in HIV
+  photo: "images/Jasmine.jpg"
