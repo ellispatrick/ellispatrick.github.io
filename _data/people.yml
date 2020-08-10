@@ -11,8 +11,9 @@
   
 - name: Adam Chan
   role: PhD student
-  photo: "https://media-exp1.licdn.com/dms/image/C5603AQF6C4V5rosOTQ/profile-displayphoto-shrink_400_400/0?e=1602720000&v=beta&t=PK2-NUuHTGeVu-gqDk6ATjcthsZUifU0nLTOo6Y_SZU"
-  
+  photo: "https://github.com/adam2o1o.png"
+  other: "https://github.com/adam2o1o"
+   
 - name: Madeleine Otway
   role: PhD student
   photo: "images/Madi.jpg"
@@ -25,6 +26,8 @@
   
 - name: Thomas Ye
   role: Honours student
+  photo: "  https://github.com/thomas835.png"
+  other: "  https://github.com/thomas835"
   
 - name: Alan Burzevski
   role: Honours student
