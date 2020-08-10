@@ -6,7 +6,7 @@
   
 - name: Nick Canete
   role: PhD student
-  photo: "images/Nick.jpg"
+  photo: "https://github.com/nickcee.png"
   other: "https://github.com/nickcee"
   
 - name: Adam Chan
@@ -20,7 +20,8 @@
   
 - name: Heeva Baharlou
   role: PhD student
-  photo: "images/Heeva.jpg"
+  photo: "https://github.com/heevaBaharlou.png"
+  other: "https://github.com/heevaBaharlou"
   
 - name: Thomas Ye
   role: Honours student
@@ -32,6 +33,8 @@
  
 - name: Harry Robertson
   role: Honours student
+  photo: "https://github.com/Harry25R.png"
+  other: "https://github.com/Harry25R"  
   
 - name: Celso Milne
   role: Undergraduate
