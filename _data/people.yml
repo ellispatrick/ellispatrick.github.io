@@ -13,34 +13,28 @@
   role: PhD student
   photo: "https://github.com/adam2o1o.png"
   other: "https://github.com/adam2o1o"
-   
-- name: Madeleine Otway
-  role: PhD student
-  photo: "images/Madi.jpg"
-  other: "https://github.com/madeleineotway"
-  
-- name: Heeva Baharlou
-  role: PhD student
-  photo: "https://github.com/heevaBaharlou.png"
-  other: "https://github.com/heevaBaharlou"
-  
-- name: Thomas Ye
-  role: Honours student
-  photo: "  https://github.com/thomas835.png"
-  other: "  https://github.com/thomas835"
-  
-- name: Alan Burzevski
-  role: Honours student
-  photo: "https://github.com/alanburzevski.png"
-  other: "https://github.com/alanburzevski"
- 
+     
 - name: Harry Robertson
-  role: Honours student
+  role: PhD student
   photo: "https://github.com/Harry25R.png"
   other: "https://github.com/Harry25R"  
+- name: Elijah Willie
+  role: PhD student
+  photo: "https://github.com/ecool50.png"
+  other: "https://github.com/ecool50"   
   
-- name: Celso Milne
-  role: Undergraduate
-  photo: "https://github.com/celsomilne.png" 
-  other: "https://github.com/celsomilne"
+- name: Farhan Ameen
+  role: PhD student
+  photo: "https://github.com/fame2827.png"
+  other: "https://github.com/fame2827"   
+  
+- name: Alexander Nicholls
+  role: PhD student
+  photo: "https://github.com/anic0077.png"
+  other: "https://github.com/anic0077" 
+  
+- name: Sourish Iyengar
+  role: PhD student
+  photo: "https://github.com/sourish279.png"
+  other: "https://github.com/sourish279" 
   

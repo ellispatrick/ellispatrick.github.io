@@ -1,4 +1,26 @@
 ---
+- name: Madeleine Otway
+  role: PhD student
+  photo: "images/Madi.jpg"
+  other: "https://github.com/madeleineotway"
+ 
+- name: Heeva Baharlou
+  role: PhD student
+  photo: "https://github.com/heevaBaharlou.png"
+  other: "https://github.com/heevaBaharlou"
+  
+- name: Celso Milne
+  role: Undergraduate
+  photo: "https://github.com/celsomilne.png" 
+  other: "https://github.com/celsomilne" 
+- name: Thomas Ye
+  role: Honours student
+  photo: "https://github.com/thomas835.png"
+  other: "https://github.com/thomas835"  
+ - name: Alan Burzevski
+  role: Honours student
+  photo: "https://github.com/alanburzevski.png"
+  other: "https://github.com/alanburzevski" 
 - name: Kate Brewer
   role: Honours student
   photo: "/images/Kate.jpg"
