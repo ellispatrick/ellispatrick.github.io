@@ -3,12 +3,7 @@
   role: Principal Investigator
   photo: "https://github.com/ellispatrick.png"
   other: "https://github.com/ellispatrick"
-  
-- name: Nick Canete
-  role: PhD student
-  photo: "https://github.com/nickcee.png"
-  other: "https://github.com/nickcee"
-  
+    
 - name: Adam Chan
   role: PhD student
   photo: "https://github.com/adam2o1o.png"
@@ -18,23 +13,21 @@
   role: PhD student
   photo: "https://github.com/Harry25R.png"
   other: "https://github.com/Harry25R"  
+
 - name: Elijah Willie
   role: PhD student
   photo: "https://github.com/ecool50.png"
   other: "https://github.com/ecool50"   
   
 - name: Farhan Ameen
-  role: Honours student
+  role: PhD student
   photo: "https://github.com/fame2827.png"
   other: "https://github.com/fame2827"   
+
+- name: Nick Robertson
+  role: Software Engineer
+  photo: "https://github.com/nick-robo.png"
+  other: "https://github.com/nick-robo"   
   
-- name: Alexander Nicholls
-  role: Honours student
-  photo: "https://github.com/anic0077.png"
-  other: "https://github.com/anic0077" 
-  
-- name: Sourish Iyengar
-  role: Honours student
-  photo: "https://github.com/sourish279.png"
-  other: "https://github.com/sourish279" 
+
   

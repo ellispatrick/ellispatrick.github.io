@@ -3,27 +3,46 @@
   role: PhD student
   photo: "images/Madi.jpg"
   other: "https://github.com/madeleineotway"
+
+- name: Nick Canete
+  role: PhD student
+  photo: "https://github.com/nickcee.png"
+  other: "https://github.com/nickcee"
  
 - name: Heeva Baharlou
   role: PhD student
   photo: "https://github.com/heevaBaharlou.png"
   other: "https://github.com/heevaBaharlou"
+
+- name: Alexander Nicholls
+  role: Honours student
+  photo: "https://github.com/anic0077.png"
+  other: "https://github.com/anic0077" 
+  
+- name: Sourish Iyengar
+  role: Honours student
+  photo: "https://github.com/sourish279.png"
+  other: "https://github.com/sourish279" 
   
 - name: Celso Milne
   role: Undergraduate
   photo: "https://github.com/celsomilne.png" 
   other: "https://github.com/celsomilne" 
+
 - name: Thomas Ye
   role: Honours student
   photo: "https://github.com/thomas835.png"
   other: "https://github.com/thomas835"  
+
 - name: Alan Burzevski
   role: Honours student
   photo: "https://github.com/alanburzevski.png"
   other: "https://github.com/alanburzevski" 
+
 - name: Kate Brewer
   role: Honours student
   photo: "/images/Kate.jpg"
+  
 - name: Jasmine Yuan
   role: Honours student
   photo: "images/Jasmine.jpg"
