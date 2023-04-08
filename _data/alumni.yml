@@ -3,16 +3,19 @@
   role: PhD student
   photo: "images/Madi.jpg"
   other: "https://github.com/madeleineotway"
+  with: Primary supervisor Prof Phil Robinson
 
 - name: Nick Canete
-  role: PhD student
+  role: MPhil student
   photo: "https://github.com/nickcee.png"
   other: "https://github.com/nickcee"
+  with: Co-supervisor Prof Andrew Harman
  
 - name: Heeva Baharlou
   role: PhD student
   photo: "https://github.com/heevaBaharlou.png"
   other: "https://github.com/heevaBaharlou"
+  with: Primary Supervisor Prof Andrew Harman
 
 - name: Alexander Nicholls
   role: Honours student
