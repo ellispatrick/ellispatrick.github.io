@@ -16,6 +16,10 @@
   photo: "https://media.licdn.com/dms/image/C5603AQHMOBaIHyc_Sw/profile-displayphoto-shrink_800_800/0/1537590118595?e=1686182400&v=beta&t=P8bm8_cFdaIlshilrSr_C81yTodWwxyPmpzmI64PYDE"
   other: "https://github.com/xhelenfu"
 
+- name: Nick Robertson
+  role: Software Engineer
+  photo: "https://github.com/nick-robo.png"
+  other: "https://github.com/nick-robo"   
       
 - name: Adam Chan
   role: PhD student
@@ -41,10 +45,7 @@
   photo: "https://github.com/fame2827.png"
   other: "https://github.com/fame2827"   
 
-- name: Nick Robertson
-  role: Software Engineer
-  photo: "https://github.com/nick-robo.png"
-  other: "https://github.com/nick-robo"   
+
   
 
   
