@@ -1,0 +1,63 @@
+/*-- scss:defaults --*/
+
+// Base document colors
+.navbar {
+  border-bottom: 3px solid rgba(230,71,39,.95);
+}
+
+.navbar-brand > img {
+  max-height: 36px;
+}
+
+
+/* unvisited link */
+a:link {
+  color: rgba(230,71,39,.95);
+}
+
+/* visited link */
+a:visited {
+  color: rgba(230,71,39,.95);
+}
+
+
+body a:hover {
+    color: rgba(230,71,39,.50);
+}
+
+
+.navbar li.nav-item a.nav-link.active span {
+  color: rgba(230,71,39,.95) !important;
+}
+
+.navbar li.nav-item a:hover span {
+  color: rgba(230,71,39,.50) !important;
+}
+
+.navbar li.nav-item a.nav-link.active span {
+  color: rgba(230,71,39,.95) !important;
+}
+
+.navbar li.nav-item a:hover span {
+  color: rgba(230,71,39,.50) !important;
+}
+
+.sidebar li.nav-link a:hover {
+  color: rgba(230,71,39,.50) !important;
+}
+
+
+.sidebar.margin-sidebar .nav-link.active {
+  color: rgba(230,71,39,.95) !important; /* Set the text color for better */
+}
+
+
+.sidebar.margin-sidebar .nav-link.hover {
+  color: rgba(230,71,39,.50) !important; /* Set the text color for better */
+}
+
+
+
+.bi {
+  color: black;
+}
