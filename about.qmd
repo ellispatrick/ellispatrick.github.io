@@ -30,7 +30,15 @@ True societal impact requires productive collaboration between like-minded indiv
 </p>  
 </div>
 
-
+<div class="image-with-text">
+<img src="https://github.com/shreyarao24.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Shreya Rao</big>  
+Honours Student  
+[https://github.com/shreyarao24](https://github.com/shreyarao24)  
+<i></i>
+</p>
+</div>
 
 <div class="image-with-text">
 <img src="https://github.com/fame2827.png" alt="Farhan" style="width: 100px; border: 0px; border-radius: 50%"/>  
@@ -149,7 +157,7 @@ Honours Student
 <img src="https://github.com/sourish279.png" alt="Sourish" style="width: 100px; border: 0px; border-radius: 50%"/>  
 <p style="text-align:centre">
 <big style="font-weight: bold">Sourish Iyengar</big>  
-PhD Student  
+Honours Student   
 [https://github.com/sourish279](https://github.com/sourish279)  
 <i></i>
 </p>
@@ -169,7 +177,7 @@ Undergraduate Student
 <img src="https://github.com/thomas835.png" alt="thomas" style="width: 100px; border: 0px; border-radius: 50%"/>  
 <p style="text-align:centre">
 <big style="font-weight: bold">Thomas Ye</big>  
-PhD Student  
+Honours Student 
 [https://github.com/thomas835](https://github.com/thomas835)  
 <i></i>
 </p>
@@ -179,7 +187,7 @@ PhD Student
 <img src="https://github.com/alanburzevski.png" alt="Alan" style="width: 100px; border: 0px; border-radius: 50%"/>  
 <p style="text-align:centre">
 <big style="font-weight: bold">Alan Burzevski</big>  
-PhD Student  
+Honours Student 
 [https://github.com/alanburzevski](https://github.com/alanburzevski)  
 <i></i>
 </p>
