@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ellis Patrick</title>
+    <description>The website of Ellis Patrick - University of Sydney - Statistical Bioinformatician.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 08 Apr 2023 20:29:17 +1000</pubDate>
+    <lastBuildDate>Sat, 08 Apr 2023 20:29:17 +1000</lastBuildDate>
+    <generator>Jekyll v3.9.3</generator>
+    
+      <item>
+        <title>Congratulations Shila on single-cell data analysis challenge.</title>
+        <description>&lt;p&gt;Congratulations to Shila Ghazanfar for leading our team to victory at the inaugral “Oz Single Cells 2018” data analysis challenge.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Utilising ambient RNA and damaged cell profiles for appropriate cell selection in droplet-based single cell transcriptomics&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Shila Ghazanfar, Ellis Patrick, Jean Yang&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;High throughput droplet technology has facilitated simultaneous profiling of entire transcriptomes of thousands of single cells. An important analysis step is to distinguish droplets containing cells of interest, as opposed to containing ambient RNA and heavily damaged cells. Inappropriate selection of cells could result in inconsistencies across multiple datasets and introduce cell-type specific biases, e.g. towards smaller cells with less total RNA. Recent efforts include the emptyDroplets method that distinguishes ‘empty’ droplets from cell-containing droplets [1], but retains damaged cells characterised by high proportion of mitochondrial genes. As a result this necessitates post-hoc removal of the damaged cells, leading to computational costs and significant changes in interpretation of results.&lt;/p&gt;
+
+&lt;p&gt;To this end, we propose an extension to the emptyDroplets approach that uses damaged cell profiles to select for cell barcodes that are distinct to both ambient RNA and damaged cells. We applied our method to the Nguyen et al (2018) dataset and found that these approaches result in differences in terms of the number of cells selected, their characteristics, and downstream analysis results. Visual summary suggests that a non-linear approach to selecting cells is more appropriate, and techniques utilising information from all cell barcodes holds promise for quality assessment.&lt;/p&gt;
+
+&lt;p&gt;[1] Distinguishing cells from empty droplets in droplet-based single-cell RNA sequencing data. Aaron Lun, Samantha Riesenfeld, Tallulah Andrews, The Phuong Dao, Tomas Gomes, participants in the 1st Human Cell Atlas Jamboree, John Marioni. bioRxiv 234872; doi: https://doi.org/10.1101/234872.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 18 Jul 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/07/18/ozSC.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/18/ozSC.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>DCARS on github.</title>
+        <description>&lt;p&gt;Shila Ghazanfar has made her DCARS R package available on github, https://github.com/shazanfar/DCARS . DCARS is a flexible statistical approach which uses local weighted correlations to build a powerful and robust statistical test to identify significant variation in levels of concordance across a ranking of samples. This has the potential to discover biologically informative relationships between genes across a variable of interest, such as survival outcome.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jun 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/06/20/DCARS.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/06/20/DCARS.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Congratulations Madi on prize at SBRS2018.</title>
+        <description>&lt;p&gt;Congratulations to Madeleine Otway on winning the best fast-forward poster presentation at the Sydney Bioinformatics Research Symposium. She gave an aweseome presentation on her “dialects” package for converting SWATH-MS SRLs.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Jun 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/06/13/MadiSBRS.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/06/13/MadiSBRS.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>New publication on a molecular map of Alzheimer&apos;s disease.</title>
+        <description>&lt;p&gt;Nature Neuroscience recently accepted our manuscript describing a molecular network of the aging human brain. &lt;a href=&quot;https://www.nature.com/articles/s41593-018-0154-9?WT.feed_name=subjects_diseases-of-the-nervous-system&quot; target=&quot;_blank&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: There is a need for new therapeutic targets with which to prevent Alzheimer’s disease (AD), a major contributor to aging-related cognitive decline. Here we report the construction and validation of a molecular network of the aging human frontal cortex. Using RNA sequence data from 478 individuals, we first build a molecular network using modules of coexpressed genes and then relate these modules to AD and its neuropathologic and cognitive endophenotypes. We confirm these associations in two independent AD datasets. We also illustrate the use of the network in prioritizing amyloid- and cognition-associated genes for in vitro validation in human neurons and astrocytes. These analyses based on unique cohorts enable us to resolve the role of distinct cortical modules that have a direct effect on the accumulation of AD pathology from those that have a direct effect on cognitive decline, exemplifying a network approach to complex diseases.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 May 2018 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2018/05/28/Alzheimers-map.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/05/28/Alzheimers-map.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Preprint - Differential correlation across ranked samples.</title>
+        <description>&lt;p&gt;We just submitted a paper on identifying differentially correlated genes in cancer to biorXiv &lt;a href=&quot;https://www.biorxiv.org/content/early/2018/04/18/303735&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: Genes act as a system and not in isolation. Thus, it is important to consider coordinated changes of gene expression rather than single genes when investigating biological phenomena such as the aetiology of cancer. We have developed an approach for quantifying how changes in the association between pairs of genes may inform patient prognosis called Differential Correlation across Ranked Samples (DCARS). Modelling gene correlation across a continuous sample ranking does not require the classification of patients into ‘good’ or ‘poor’ prognosis groups and can identify differences in gene correlation across early, mid or late stages of survival outcome. When we evaluated DCARS against the typical Fisher Z-transformation test for differential correlation, as well as a typical approach testing for interaction within a linear model, on real TCGA data, DCARS significantly ranked gene pairs containing known cancer genes more highly across a number of cancers. Similar results are found with our simulation study. DCARS was applied to 13 cancers datasets in TCGA, revealing a number of distinct relationships for which survival ranking was found to be associated with a change in correlation between genes. Furthermore, we demonstrated that DCARS can be used in conjunction with network analysis techniques to extract biological meaning from multi- layered and complex data.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 18 Mar 2018 00:00:00 +1100</pubDate>
+        <link>http://localhost:4000/2018/03/18/DCARS.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/18/DCARS.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>AMED3002 Interrogating biomedical and health data.</title>
+        <description>&lt;p&gt;Today AMED3002, a unit in the brand new applied medical science major (AMED) kicked off out at Westmead. This semester I’ll be leading a cohort of medical science students into the exciting world of biomedical data analysis.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 06 Feb 2018 00:00:00 +1100</pubDate>
+        <link>http://localhost:4000/2018/02/06/AMED3002.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/02/06/AMED3002.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>New publication on the microglia transcriptome.</title>
+        <description>&lt;p&gt;Nature Communications recently accepted our manuscript describing the microglia transcriptome in an aged cohort.&lt;/p&gt;
+
+&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;With a rapidly aging global human population, finding a cure for late onset neurodegenerative diseases has become an urgent enterprise. However, these efforts are hindered by the lack of understanding of what constitutes the phenotype of aged human microglia—the cell type that has been strongly implicated by genetic studies in the pathogenesis of age-related neurodegenerative disease. Here, we establish the set of genes that is preferentially expressed by microglia in the aged human brain. This HuMi_Aged gene set captures a unique phenotype, which we confirm at the protein level. Furthermore, we find this gene set to be enriched in susceptibility genes for Alzheimer’s disease and multiple sclerosis, to be increased with advancing age, and to be reduced by the protective APOEε2 haplotype. APOEε4 has no effect. These findings confirm the existence of an aging-related microglial phenotype in the aged human brain and its involvement in the pathological processes associated with brain aging.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Jan 2018 00:00:00 +1100</pubDate>
+        <link>http://localhost:4000/2018/01/09/Microglia.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/09/Microglia.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Preprint - Dissecting the role of non-coding RNAs in the accumulation of amyloid and tau neuropathologies in Alzheimer&apos;s disease.</title>
+        <description>&lt;p&gt;Check out my preprint on biorXiv &lt;a href=&quot;http://biorxiv.org/content/early/2016/12/17/095067&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Background: Given multiple studies of brain microRNA (miRNA) in relation to Alzheimer’s disease (AD) with few consistent results and the heterogeneity of this disease, the objective of this study was to explore their mechanism by evaluating their relation to different elements of Alzheimer’s disease pathology, confounding factors and mRNA expression data from the same subjects in the same brain region.&lt;/p&gt;
+
+&lt;p&gt;Results: We report analyses of expression profiling of miRNA (n=700 subjects) and lincRNA (n=540 subjects) from the dorsolateral prefrontal cortex of individuals participating in two longitudinal cohort studies of aging. Evaluating well-established (miR-132, miR-129), we confirm their association with pathologic AD in our dataset, and then characterize their in disease role in terms of neuritic ?-amyloid plaques and neurofibrillary tangle pathology. Additionally, we identify one new miRNA (miR-99) and four lincRNA that are associated with these traits. Many other previously reported associations of microRNA with AD are associated with the confounders quantified in our longitudinal cohort. Finally, by performing analyses integrating both miRNA and RNA sequence data from the same individuals (525 samples), we characterize the impact of AD associated miRNA on human brain expression: we show that the effects of miR-132 and miR-129-5b converge on certain genes such as EP300 and find a role for miR200 and its target genes in AD using an integrated miRNA/mRNA analysis.&lt;/p&gt;
+
+&lt;p&gt;Conclusions: Overall, miRNAs play a modest role in human AD, but we observe robust evidence that a small number of miRNAs are responsible for specific alterations in the cortical transcriptome that are associated with AD.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Dec 2016 00:00:00 +1100</pubDate>
+        <link>http://localhost:4000/2016/12/21/MicroRNA-preprint.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/12/21/MicroRNA-preprint.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>New publication on survival estimates for cancer patients.</title>
+        <description>&lt;p&gt;Oncotarget recently accepted our manuscript describing methodology for integrating clinical and gene expression data to improve survival estimates of cancer patients. Check it out on &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pubmed/27833072&quot; target=&quot;_blank&quot;&gt;Pubmed&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Cancer research continues to highlight the extensive genetic diversity that exists both between and within tumors. This intrinsic heterogeneity poses one of the central challenges to predicting patient clinical outcome and the personalization of treatments. Despite progress in some individual tumor types, it is not yet possible to prospectively, accurately classify patients by expected survival. One hypothesis proposed to explain this is that the prognostic classifiers developed to date are insufficiently sensitive and specific; however it is also possible that patients are not equally easy to classify by any given biomarker. We demonstrate in a cohort of 45 AJCC stage III melanoma patients that clinico-pathologic biomarkers can identify those patients that are most likely to be misclassified by a molecular biomarker. The process of modelling the classifiability of patients was then replicated in a cohort of 49 stage II breast cancer patients and 53 stage III colon cancer patients. A multi-step procedure incorporating this information not only improved classification accuracy but also indicated the specific clinical attributes that had made classification problematic in each cohort. These findings show that, even when cohorts are of moderate size, including features that explain the patient-specific performance of a prognostic biomarker in a classification framework can improve the modelling and estimation of survival.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 14 Nov 2016 00:00:00 +1100</pubDate>
+        <link>http://localhost:4000/2016/11/14/Publication-on-cancer-classification-Copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/11/14/Publication-on-cancer-classification-Copy.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>New website!</title>
+        <description>&lt;p&gt;After much consideration I have decided to trial using github to create and house my web presence. Stick with me as I try to work out the kinks. Thanks to &lt;a href=&quot;http://saramostafavi.github.io/&quot; target=&quot;_blank&quot;&gt;Sara Mostafavi&lt;/a&gt; for suggesting I clone her template.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 28 Sep 2016 00:00:00 +1000</pubDate>
+        <link>http://localhost:4000/2016/09/28/New-Website.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/28/New-Website.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
