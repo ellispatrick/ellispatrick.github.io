@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 
  <style>
@@ -10,7 +9,7 @@ layout: default
 
 <h1 style="color: white; text-align:center;">AFid: A tool for automated identification and exclusion of autofluorescent objects from microscopy images </h1>
   	 
-	 	<img src="../images/AF/Heeva.gif" style="width: 100%; height: auto">
+	 	<img src="images/AF/Heeva.gif" style="width: 100%; height: auto">
 		 
 		 <h2 style="color: white;"> About </h2>
 		 Autofluorescence is a long-standing problem that has hindered fluorescence microscopy image analysis. To address this, we have developed a method that identifies autofluorescent signals from multi-channel images post acquisition. 
@@ -45,7 +44,7 @@ layout: default
 		
 		<br><br>
 		
-		Baharlou H*, Canete, N*, Bertram KM, Sandgren KJ, Cunningham AL, Harman AN and Patrick E. (2019) AFid: A tool for automated identification and exclusion of autofluorescent objects from microscopy images <i> bioarxiv</i> 
+		Baharlou H*, Canete, N*, Bertram KM, Sandgren KJ, Cunningham AL, Harman AN and Patrick E. (2021) AFid: a tool for automated identification and exclusion of autofluorescent objects from microscopy images <i> Bioinformatics</i> 
 		<br>
 		Raw data and scripts to reproduce the figures are available on <td><u><b><a href="https://zenodo.org/record/3898373#.Xuq-NkUvOUl" target="_blank" style="color: white">https://zenodo.org/record/3898373#.Xuq-NkUvOUl</a></b></u></td> 
 		

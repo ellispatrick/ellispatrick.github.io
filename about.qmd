@@ -1,0 +1,254 @@
+---
+title: "People"
+---
+
+True societal impact requires productive collaboration between like-minded individuals. I value team-science and am fortunate to be surrounded by many outstanding early career scientists. 
+
+
+## Team
+
+<style>
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-with-text {
+  text-align: center;
+  padding-right: 20px;
+}
+</style>
+
+<div class="image-container">
+<div class="image-with-text">
+<img src="https://github.com/ellispatrick.png" alt="Ellis" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Ellis Patrick</big>  
+<a href="mailto:ellis.patrick@sydney.edu.au">ellis.patrick@sydney.edu.au</a>  
++61 402 159 424  
+</p>  
+</div>
+
+
+
+
+<div class="image-with-text">
+<img src="https://github.com/shreyarao24.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Shreya Rao</big>  
+Honours Student  
+[https://github.com/shreyarao24](https://github.com/shreyarao24)  
+<i></i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/Jpop3.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Joshua Pople</big>  
+Honours Student  
+[https://github.com/Jpop3](https://github.com/Jpop3)  
+<i></i>
+</p>
+</div>
+
+
+<div class="image-with-text">
+<img src="https://github.com/fame2827.png" alt="Farhan" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Farhan Ameen</big>  
+PhD Student  
+[https://github.com/fame2827](https://github.com/fame2827)  
+<i>Co-supervisor Shila Ghazanfar</i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/adam2o1o.png" alt="Adam" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Adam Chan</big>  
+PhD Student  
+[https://github.com/adam2o1o](https://github.com/adam2o1o)  
+<i>Co-supervisor Jean Yang</i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/Harry25R.png" alt="Harry" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Harry Robertson</big>  
+PhD Student  
+[https://github.com/Harry25R](https://github.com/Harry25R)  
+<i>Co-supervisor Jean Yang</i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/ecool50.png" alt="Elijah" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Elijah Willie</big>  
+PhD Student  
+[https://github.com/ecool50](https://github.com/ecool50)  
+<i>Co-supervisor Pengyi Yang</i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="images/Andrew.jpg" alt="Andrew" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Andrew Sawyer</big>  
+Postdoc  
+[https://github.com/asawyer123](https://github.com/asawyer123)  
+<i>Co-supervisor Carl Feng</i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/alexrunqin.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Alex Qin</big>  
+Research Assistant  
+[https://github.com/alexrunqin](https://github.com/alexrunqin)  
+<i></i>  
+</p>
+</div>
+<div class="image-with-text">
+<img src="https://github.com/nick-robo.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Nick Robertson</big>  
+Software Engineer  
+[https://github.com/nick-robo](https://github.com/nick-robo)
+</p>
+</div>
+</div>
+
+
+## Alumni
+
+<div class="image-container">
+<div class="image-with-text">
+<img src="images/Madi.png" alt="Madi" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Madeleine Otway</big>  
+PhD Student  
+[https://github.com/madeleineotway](https://github.com/madeleineotway)  
+<i>Co-supervisor Phil Robinson</i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/nickcee.png" alt="Nick" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Nick Canete</big>  
+MPhil Student  
+[https://github.com/nickcee](https://github.com/nickcee)  
+<i>Co-supervisor Andrew Harman</i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/heevaBaharlou.png" alt="Heeva" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Heeva Baharlou</big>  
+PhD Student  
+[https://github.com/heevaBaharlou](https://github.com/heevaBaharlou)  
+<i>Co-supervisor Andrew Harman</i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="images/Alex.jpg" alt="Alex" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Alexander Nicholls</big>  
+Honours Student  
+[https://github.com/anic0077](https://github.com/anic0077)  
+<i></i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/sourish279.png" alt="Sourish" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Sourish Iyengar</big>  
+Honours Student   
+[https://github.com/sourish279](https://github.com/sourish279)  
+<i></i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/celsomilne.png" alt="Celso" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Celso Milne</big>  
+Undergraduate Student  
+[https://github.com/celsomilne](https://github.com/celsomilne)  
+<i></i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/thomas835.png" alt="thomas" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Thomas Ye</big>  
+Honours Student  
+[https://github.com/thomas835](https://github.com/thomas835)  
+<i></i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/alanburzevski.png" alt="Alan" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Alan Burzevski</big>  
+Honours Student  
+[https://github.com/alanburzevski](https://github.com/alanburzevski)  
+<i></i>
+</p>
+</div>
+
+
+<div class="image-with-text">
+<img src="images/Kate.png" alt="Kate Brewer" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Kate Brewer</big>  
+Honours student  
+[https://github.com/kbrew2](https://github.com/kbrew2)
+<i></i>
+</p>
+</div>
+
+
+<div class="image-with-text">
+<img src="images/Jasmine.png" alt="Jasmine" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Jasmine Yuan</big>  
+Honours Student  
+[https://github.com/jasyuan](https://github.com/jasyuan)  
+<i>Co-supervisor Andrew Harman</i>
+</p>
+</div>
+
+
+</div>
+
+
+
+## The Sydney Precision Data Science Centre
+<img src="images/SPDS.jpg" alt="SPDS" style="width: 100%; border: 0px"/>
+
+The purpose of the Sydney Precision Data Science Centre is to engage in high quality and transformational multidisciplinary research and to provide a research hub to all interdisciplinary researchers in data-intensive science. We generate innovative, fit-for-purpose applied analytical methodologies that are critical to knowledge discovery through the deep integration of various quantitative disciplines and research paradigms. We are focused on developing methods to help solve complex global problems, from designing predictive biomarkers of disease progression to ensuring the sustainability and quality of food production.
+
+
+### Our priorities
+
+We work on the principle that successful and sustainable collaboration grows organically within the right environment. To this end, our priorities for success are to:
+
+- embrace data science challenges by developing innovative, fit-for-purpose applied methods in synergistic partnerships with key data-generating centres at Sydney and beyond
+
+- address data challenges with high societal impact and to build sustainable approaches
+
+- provide an incubator for interdisciplinary careers
+
+- establish a collaborative community that reflects and values diversity.
+

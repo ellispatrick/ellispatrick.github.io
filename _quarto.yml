@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  navbar: 
+    logo: images/USYDWIMR.png
+#    logo-href: "https://www.sydney.edu.au/science/our-research/research-centres/sydney-precision-data-science-centre.html"
+    background: "white"
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house-door
+      - href: about.qmd
+        text: People
+        icon: people
+      - href: Software.qmd
+        text: Software
+        icon: display
+      - href: Publications.qmd
+        text: Publications
+        icon: newspaper
+      - href: Join.qmd
+        text: Join Us
+        icon: emoji-sunglasses
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    css: styles.css
+    toc: true
+    linkcolor: rgba(230,71,39,.95)
+
+
+
+

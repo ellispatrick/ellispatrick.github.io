@@ -1,0 +1,8 @@
+---
+title: "Publications"
+bibliography: bib/Ellis.bib
+csl: bib/apa-6th-edition.csl
+nocite: '@*'
+---
+
+You can find my google scholar page <a href="https://scholar.google.com.au/citations?user=s-cliFIAAAAJ&hl=en" target="_blank">here</a>.
