@@ -31,8 +31,6 @@ True societal impact requires productive collaboration between like-minded indiv
 </div>
 
 
-
-
 <div class="image-with-text">
 <img src="https://github.com/shreyarao24.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
 <p style="text-align:centre">
@@ -228,7 +226,6 @@ Honours Student
 <i>Co-supervisor Andrew Harman</i>
 </p>
 </div>
-
 
 </div>
 

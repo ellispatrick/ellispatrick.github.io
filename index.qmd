@@ -11,7 +11,9 @@ toc-depth: 1
 <img src="images/Ellis.png" align="left" style="height: 200px; border: 0px; padding-right: 20px;"/>
 
 <p>
+
 I am an Associate Professor in the <a href="https://www.sydney.edu.au/science/schools/school-of-mathematics-and-statistics.html" target="_blank">School of Mathematics and Statistics</a> at The University of Sydney, a Faculty member at <a href="https://www.westmeadinstitute.org.au/" target="_blank">The Westmead Institute for Medical Research</a> and the Cluster Lead of Bioinformatics in the <a href="https://sydney.edu.au/science/data-science/" target="_blank">Sydney Precision Data Science Centre</a>.  
+
 
 My research interests lie at the interface of statistics and biomedical data science where I specialise in developing and implementing innovative bioinformatics tools to enhance our understanding and treatment of human diseases. I have cultivated an extensive collaborative network and apply my expertise in extracting meaning from cutting-edge high-dimensional molecular and cellular assays to enable research into infectious diseases, organ transplant, cardiovascular disease, neurodegeneration, and cancer. The analytical challenges inherent in this disease-focused research necessitate the creation, evaluation, and sharing of advanced statistical methodology to support breakthrough discoveries.  
 
