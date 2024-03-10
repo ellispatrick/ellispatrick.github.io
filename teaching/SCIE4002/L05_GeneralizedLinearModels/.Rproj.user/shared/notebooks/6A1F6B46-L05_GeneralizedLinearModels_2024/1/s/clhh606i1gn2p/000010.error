@@ -1,0 +1,1 @@
+{"frames":[{"func":"theme_set(theme_classic(text = element_text(size = 20)))","file":"","line_number":0,"end_line_number":0,"character_number":0,"end_character_number":0}],"message":"Error in theme_classic(text = element_text(size = 20)) : \n  unused argument (text = element_text(size = 20))\n"}

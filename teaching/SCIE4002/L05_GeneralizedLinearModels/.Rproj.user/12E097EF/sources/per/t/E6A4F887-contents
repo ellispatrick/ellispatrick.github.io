@@ -1,0 +1,436 @@
+---
+title: "Untitled"
+output: html_document
+date: "2023-02-17"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r cars}
+set.seed(123)
+
+# Calling package EBglmnet 
+#library(EBglmnet)
+
+# Calling some required packages
+library(invgamma)
+library(mvtnorm)
+#library(LassoDistribution)
+
+source("lasso_distribution.R")
+
+library(armspp)
+library(psych)  # For getting the trace of matrix
+library(ghyp)  # For GIG distribution
+library(posterior)
+
+# Calling package lars to load dataset
+library(lars)
+# Calling this package for getting ESS
+library(mcmcse)
+library(here)
+library(dplyr)
+```
+
+```{r, eval=FALSE}
+library(flare)
+data(eyedata)
+
+dataset_name <- "eyedata"
+```
+
+
+```{r, eval=FALSE}
+# Calling Diabetes dataset 
+data(diabetes)
+attach(diabetes)
+```
+
+```{r, eval=TRUE}
+load("comData.Rdata")
+
+mX <- t(t(X) %>% na.omit())  
+mX <- mX[,-which(colnames(X)%in%c("ownHousQrange","rentUpperQ"))]
+varnames <- colnames(mX)
+vy <- Y[,"murders"]
+
+x <- mX
+y <- vy
+
+dataset_name <- "comData"
+```
+
+```{r}
+
+######------- Normalizing variables ------
+normalize <- function(y, X) {
+  n <- length(y)
+  p <- ncol(X)
+  
+  mu.y <- mean(y)
+  sigma2.y <- (n - 1) * var(y) / n
+  vy <- (y - mu.y) / sqrt(sigma2.y)
+  
+  # Normalise covariates
+  mX <- matrix(0, n, p)
+  mu.x <- c()
+  sigma2.x <- c()
+  for (j in 1:p)
+  {
+    mu.x[j] <- mean(X[, j])
+    sigma2.x[j] <- (n - 1) * var(X[, j]) / n
+    mX[, j] <- (X[, j] - mu.x[j]) / sqrt(sigma2.x[j])
+  }
+  
+  return(list(vy = vy, mX = mX, mu.y = mu.y, sigma2.y = sigma2.y, mu.x = mu.x, sigma2.x = sigma2.x))
+}
+
+norm = normalize(y,x)
+y <- norm$vy
+x <- norm$mX
+
+vy <- y
+mX <- x
+
+p <- ncol(mX)
+```
+
+
+```{r}
+source(here("code","bayesian_lasso_gibbs.R")) 
+
+nburn <- 1000
+nkeep <- 9000
+nsamples <- nburn + nkeep
+
+lambda_prior <- list(lambda_start=1, prior="gamma",u=0.01,v=0.01)
+
+ti_0 <- system.time({
+  res_gibbs <- bayesian_lasso_gibbs(vy, mX, lambda=lambda_prior, nsamples=nsamples)
+})[3]
+```
+```{r}
+mBeta_mcmc = res_gibbs$mBeta[-(1:nburn),]
+
+ESS_0 <- c()
+for(j in 1:p){
+  ESS_0[j] = ess_basic(mBeta_mcmc[,j])
+}
+Ef_0 = summary(ESS_0)/as.numeric(ti_0)
+```
+
+
+```{r}
+###### Gibbs Sampling form "A" #######
+
+source("lasso_gibbs_2A.R")
+
+mX <- x
+vy <- y
+u <- 0.01
+v <- 0.01
+a <- 0.01
+b <- 0.01
+
+library(profvis)
+
+#profvis({ 
+#   output_A = lasso_gibbs_2A(mX,vy,a,b,u,v,max_iter)
+#})
+
+ti_A <- system.time({
+  output_A = lasso_gibbs_2A(mX,vy,a,b,u,v,nsamples)
+})[3]
+
+mBeta_mcmc = output_A$mBeta_mcmc[-(1:nkeep),]
+ 
+ESS_A <- c()
+for(j in 1:p){
+  ESS_A[j] = ess_basic(mBeta_mcmc[,j])
+}
+Ef_A = summary(ESS_A)/as.numeric(ti_A)
+
+ 
+
+for (j in 1:p) {
+#  plot(density(output_A$mBeta_mcmc[-(1:1000),j]), main=paste(j))
+}
+
+```
+
+
+```{r}
+
+###### Gibbs sampling form "B" ########
+source("lasso_gibbs_2B.R")
+
+profvis({ 
+   output_B = lasso_gibbs_2B(mX,vy,a,b,u,v,nsamples)
+})
+
+ti_B  <- system.time({
+  output_B = lasso_gibbs_2B(mX,vy,a,b,u,v,nsamples)
+})[3]
+
+mBeta_mcmc = output_B$mBeta_mcmc[-(1:nkeep),]
+
+ESS_B <- c()
+for(j in 1:p){
+  ESS_B[j] <- ess_basic(mBeta_mcmc[,j])
+}
+Ef_B = summary(ESS_B)/as.numeric(ti_B)
+```
+```{r}
+plot(density(output_B$sigma2_mcmc[-(1:nburn)]), main="sigma2")
+lines(density(output_A$sigma2_mcmc[-(1:nburn)]),col="red")
+lines(density(res_gibbs$vsigma2[-(1:nburn)]),col="blue")
+```
+
+```{r}
+plot(density(output_B$lambda2_mcmc[-(1:nburn)]), main="lambda2")
+lines(density(output_A$lambda2_mcmc[-(1:nburn)]),col="red")
+lines(density(res_gibbs$vlambda2[-(1:nburn)]),col="blue")
+```
+
+
+```{r}
+for (j in 1:p) {
+  plot(density(output_B$mBeta_mcmc[-(1:nburn),j]), main=paste(j))
+  lines(density(output_A$mBeta_mcmc[-(1:nburn),j]),col="red")
+  lines(density(res_gibbs$mBeta[-(1:nburn),j]),col="blue")
+}
+```
+
+
+
+```{r}
+plot(ESS_B,apply( output_B$mMode_mcmc==0, 2, mean))
+```
+
+```{r}
+
+###### Gibbs sampling form "C" ########
+setwd("C:/Users/mdav3376/OneDrive - The University of Sydney (Staff)/Postdoc/Code/MCMC Gibbs sampler")
+
+
+lambda <- list(u=0.1,v=0.2,prior="gamma",lambda_start=0.1)
+
+source("lambda2_estimation_Gibbs.R")
+
+lambda2 <- lambda2_estimation_Gibbs(x,y,0.1,0.2,a_sig = 1, b_sig = 1.2,t = 100000)
+lam2 <- mean(lambda2$lam_2)
+
+Gibbs_Sampling_C <- function(x, y, lam2, u, v, a_sig, b_sig, t){
+  TOL <- 1.0E-4
+  MAXITER <- 10000
+  
+  
+  n <- nrow(x)
+  p <- ncol(x)
+  print(p)
+  A <- matrix(NA,p,p)
+  beta <- matrix(0,t,p)
+  sig_2 <- rep(0, t)
+  
+  
+  y <- as.matrix(y)
+  lam_2 <- rep(1,t)
+
+  a <- rep(1,p)
+  sigma_2 <- 0.001
+  
+  A <- diag(a)
+
+  
+  XTX <- t(x)%*%x 
+  XTy <- t(x)%*%y
+  yTX <- t(y)%*%x
+
+  
+  vbeta <- rep(1,p)
+  vtheta <- c(vbeta,sigma_2)
+  
+  # Running EM algorithm to find index set "I", which is the index of non-zero coefficients
+  for (i in 1:MAXITER) 
+  {
+    # M-step
+    vbeta <- solve(XTX + lam2*diag(a^(-1)),tol=1.0E-99)%*%XTy
+    sigma2 <- (b_sig + 0.5*sum((y - x%*%vbeta)^2) + 0.5*lam2*sum(a^(-1)*vbeta*vbeta))/(a_sig + 0.5*(n + p) - 1)
+    
+    # E-step
+    a <- sqrt((sigma2/(vbeta*vbeta))/lam2)
+    a <- as.vector(a)
+    
+    
+    vtheta_old <- vtheta
+    vtheta <- c(vbeta,sigma2)
+    err <- max(abs(vtheta - vtheta_old))
+    cat("i=",i,"err=",err,"sigma2=",sigma2,"\n") 
+    if (err < TOL) {
+      break;
+    }
+  }
+ 
+  #   # M-step
+  #   c <- lam2*(as.vector(R/S) * mu^2 + diag(Q))
+  #   
+  #   a <- (-1+sqrt(1+4*abs(c)))/2
+  #   
+  #   # E-step
+  #   Q <- solve(XTX + lam2*diag(a^(-1)),tol=1.0E-99)
+  #   mu <- Q%*%XTy
+  #   beta_EM  <- mu
+  #   
+  #   R <- a_sig + 0.5*n
+  #   S <- b_sig + 0.5*(sum(y^2) - yTX%*%Q%*%XTy)
+  #   R <- as.vector(R);  S <- as.vector(S)
+  #   sigma_2 <- S/(R-1)
+  #   
+  #   
+  #   theta_old <- theta_1
+  #   theta_1 <- a 
+  #   
+  #   err <- max(abs(theta_1 - theta_old))
+  #   # cat("ITER=",ITER,"err=",err,"va=",va,"\n") #vbeta=",vbeta,"\n")
+  #   if (err < TOL) {
+  #     break;
+  #   }
+  # }
+  
+  # Finding the indexes of the parameters which are greater than zero
+  I <- which(abs(vbeta)>1.0E-2)
+
+
+  
+  NumParam <- 1:p
+  
+
+  if(length(I) < p){
+    # Running Gibbs sampler to draw sample of beta_{-I} and beta_{I}
+    for(i in 1:t) {
+      # Draw from non-zero values beta, which is beta_{I}
+      Q_I <- solve(XTX[I,I] + lam2*1/A[I,I],tol=1.0E-9)
+      beta[i,-I] <- as.matrix(beta[i,-I])
+      
+      YXbet_minsI <- y - as.matrix(x[,-I])%*%as.matrix(beta[i,-I])
+
+      mu_I1 <- Q_I%*%t(x[,I])%*%(YXbet_minsI)
+
+      
+      beta[i,I] <- rmvnorm(1,as.vector(mu_I1),sigma_2*Q_I)
+      
+      # Draw from zero values beta, which is beta_{-I}
+      D_I <- solve(A[I,I],tol=1.0E-99)
+      XXD_Inv <- solve(XTX[I,I] + lam2*D_I,tol=1.0E-99)
+      H_I <- x[,I]%*%XXD_Inv%*%t(x[,I])
+      
+      
+      
+      mu_I2 <- XXD_Inv%*%t(x[,I])%*%(YXbet_minsI)
+      
+      a_part <- diag(nrow=nrow(H_I),ncol=ncol(H_I)) - H_I
+      b_part <- x[,I]%*%mu_I2
+      
+      for(j in NumParam[-I]){
+        a_lasso <- (t(x[,j])%*%a_part%*%x[,j])/sigma_2
+        b_lasso <- (t(x[,j])%*%(y - as.matrix(x[,-c(I,j)])%*%as.matrix(beta[i,-c(I,j)]) - b_part))/sigma_2
+        c_lasso <- sqrt(lam2/sigma_2)
+         
+        beta[i,j] <- rlasso(1,a_lasso,b_lasso,c_lasso)
+      
+      }
+      
+      # Draw from sig_2
+      
+      
+      R <- a_sig + 0.5*(n+p- length(I)) + 1 
+      
+      S <- b_sig + 0.5*(t(YXbet_minsI)%*%a_part%*%YXbet_minsI)
+      
+      R <- as.vector(R);  S <- as.vector(S)
+      
+      
+      
+      log_pdf <- function(xx){
+        sigma_2 <- -R*log(xx) - (S/xx) - sqrt(lam2/xx)*sum(abs(beta[i,-I]))
+      }
+      
+      sigma_2 <- arms(1,log_pdf, lower = 0, upper = 100, metropolis = TRUE)
+      sig_2[i] <- sigma_2
+      
+      # Draw from Lambda^2
+      log_lam2pdf <- function(xx){
+        part1 <- (u + 0.5*p -1)*log(xx) - sqrt(xx/sigma_2)*sum(abs(beta[i,-I]))
+        
+        # The following line is for the case when p(lambda^2 | data,beta,sigma^2,d_I) is considered
+        # part2 <- (v + (t(beta[i,I])%*%solve(A[I,I],tol=1.0E-99)%*%beta[i,I]/(2*sigma_2)))*xx
+        
+        # The following line is for the case when p(lambda^2 | data,beta_{-I},sigma^2,d_I) is considered
+        part2 <- (v + (tr(D_I%*%(sigma_2*XXD_Inv)) + t(mu_I2)%*%D_I%*%mu_I2)/(2*sigma_2))*xx
+        logPdf <- part1 - part2
+      }
+      lam2 <- arms(1,log_lam2pdf, lower = 0, upper = 1000, metropolis = TRUE)
+      lam_2[i] <- lam2
+      if(i%in%seq(0,t,by=100)) print(i)
+    }
+    
+  }
+  else{
+    beta_Gibbs <- matrix(0,p,1)
+    for(i in 1:t) {
+      # Draw from non-zero values beta, which is beta_{I}
+      Q <- solve(XTX + lam2*solve(A,tol=1.0E-99),tol=1.0E-99)
+
+      
+      mu <- Q%*%XTy
+      R <- a_sig + 0.5*n
+      S <- b_sig + 0.5*(sum(y^2) - yTX%*%Q%*%XTy) + (0.5*lam2*t(beta_Gibbs)%*%solve(A,tol=1.0E-99)%*%beta_Gibbs)
+      R <- as.vector(R);  S <- as.vector(S)
+      
+      beta_Gibbs<- t(rmvnorm(1,mu,sigma_2*Q))
+      beta[i,] <- as.vector(beta_Gibbs)
+      
+      sigma_2 <- rinvgamma(1,R,S)
+      sig_2[i] <- sigma_2
+      
+      shapePar <- u + (p/2)
+      ratePar <- v + (t(beta[i,])%*%solve(A)%*%beta[i,]/(2*sigma_2))
+      lam2 <- rgamma(1,shape = shapePar,rate = ratePar)
+      lam_2[i] <- lam2
+      if(i%in%seq(0,t,by=100)) print(i)
+      
+    }
+  }
+  
+  output <- list()
+  output$beta = beta
+  output$sig_2 = sig_2
+  output$I = I
+  return(output)
+}
+
+start_time <- Sys.time()
+
+output_C = Gibbs_Sampling_C(x,y, lam2,0.1,.2,1,1.2,10000)
+
+end_time <- Sys.time()
+end_time - start_time
+
+bC = output_C$beta[-(1:1000),]
+
+
+ti = end_time - start_time 
+Ef_C = rep(0,ncol(bC))
+
+for(i in 1:length(Ef_C)){
+  Ef_C[i] = ess(bC[,i])/as.numeric(ti)
+}
+Ef_C = mean(Ef_C)
+
+
+
+
+```

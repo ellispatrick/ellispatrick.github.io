@@ -1,0 +1,22 @@
+"0","library(tidyverse)
+# install.packages(vcdExtra)
+data(""Titanicp"", package = ""vcdExtra"")
+glimpse(Titanicp)
+"
+"1","Rows: 1,309"
+"1",""
+"1","
+"
+"1","Columns: 6"
+"1",""
+"1","
+"
+"1","$ pclass   [3m[38;5;246m<fct>[39m[23m 1st, 1st, 1st, 1st, 1st, 1st, 1st, 1st, 1st, 1st, 1st, 1st, 1st…
+$ survived [3m[38;5;246m<fct>[39m[23m survived, survived, died, died, died, survived, survived, died,…
+$ sex      [3m[38;5;246m<fct>[39m[23m female, male, female, male, female, male, female, male, female,…
+$ age      [3m[38;5;246m<dbl>[39m[23m 29.0000, 0.9167, 2.0000, 30.0000, 25.0000, 48.0000, 63.0000, 39…
+$ sibsp    [3m[38;5;246m<dbl>[39m[23m 0, 1, 1, 1, 1, 0, 1, 0, 2, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, …
+$ parch    [3m[38;5;246m<dbl>[39m[23m 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, …"
+"1",""
+"1","
+"
