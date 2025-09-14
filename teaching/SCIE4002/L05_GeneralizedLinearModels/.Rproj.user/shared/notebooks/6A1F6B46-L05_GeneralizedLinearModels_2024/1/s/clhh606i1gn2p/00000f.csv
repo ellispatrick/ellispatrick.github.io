@@ -1,5 +1,0 @@
-"0","theme_set(theme_classic(text=element_text(size=20)))
-"
-"2","Error in theme_classic(text = element_text(size = 20)) : 
-  unused argument (text = element_text(size = 20))
-"

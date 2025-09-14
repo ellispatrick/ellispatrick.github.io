@@ -2,7 +2,7 @@
 title: "Teaching"
 ---
 
-[SCIE4002 L5 Regression](/teaching/SCIE4002/L05_GeneralizedLinearModels/L05_GeneralizedLinearModels)
+[SCIE4002 L5 Regression](/teaching/SCIE4002/L05_GeneralizedLinearModels/L05_GeneralizedLinearModels_2024.html)
 
 
 

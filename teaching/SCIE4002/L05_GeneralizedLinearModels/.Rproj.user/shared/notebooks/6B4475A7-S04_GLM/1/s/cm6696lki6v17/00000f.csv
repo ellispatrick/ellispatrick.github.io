@@ -1,4 +1,0 @@
-"0","mod0 <- glm(discoveries~1,data=dat,family=poisson)"
-"0","mod1 <- glm(discoveries~year,data=dat,family=poisson)"
-"0","mod2 <- glm(discoveries~poly(year,2),data=dat,family=poisson)"
-"0","mod3 <- glm(discoveries~poly(year,3),data=dat,family=poisson)"

@@ -1,9 +1,0 @@
-"0","library(ggplot2)
-"
-"2","Warning message:
-"
-"2","In unloadNamespace(package) :"
-"2","
- "
-"2"," namespace ‘xfun’ is imported by ‘knitr’ so cannot be unloaded
-"

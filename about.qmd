@@ -31,25 +31,78 @@ True societal impact requires productive collaboration between like-minded indiv
 </div>
 
 
+
+
+
+
+
+<!-- Bianca Janse van Rensburg -->
 <div class="image-with-text">
-<img src="https://github.com/shreyarao24.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<img src="https://github.com/bjan0535.png" alt="Bianca" style="width: 100px; border: 0px; border-radius: 50%"/>  
 <p style="text-align:centre">
-<big style="font-weight: bold">Shreya Rao</big>  
+<big style="font-weight: bold">Bianca Janse van Rensburg</big>  
 Honours Student  
-[https://github.com/shreyarao24](https://github.com/shreyarao24)  
+[https://github.com/bjan0535](https://github.com/bjan0535)  
+<i>Co-supervisor Carl Feng</i>
+</p>
+</div>
+
+<!-- Andrew Anggara -->
+<div class="image-with-text">
+<img src="https://github.com/TimothyAnggara.png" alt="Andrew" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Andrew Anggara</big>  
+Honours Student  
+[https://github.com/TimothyAnggara](https://github.com/TimothyAnggara)  
 <i></i>
 </p>
 </div>
 
+<!-- Marie Aguanta -->
 <div class="image-with-text">
-<img src="https://github.com/Jpop3.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<img src="https://github.com/marie-aguanta.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
 <p style="text-align:centre">
-<big style="font-weight: bold">Joshua Pople</big>  
+<big style="font-weight: bold">Marie Aguanta</big>  
 Honours Student  
-[https://github.com/Jpop3](https://github.com/Jpop3)  
+[https://github.com/marie-aguanta](https://github.com/marie-aguanta)  
+<i>Co-supervisor Natasha Rogers</i>
+</p>
+</div>
+
+<!-- Elyna Lin -->
+<div class="image-with-text">
+<img src="https://github.com/elynalin.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Elyna Lin</big>  
+Honours Student  
+[https://github.com/elynalin](https://github.com/elynalin)  
 <i></i>
 </p>
 </div>
+
+
+<!-- Sadiq Dohadwalla -->
+<div class="image-with-text">
+<img src="https://github.com/sadiqDohad.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Sadiq Dohadwalla</big>  
+Masters of Mathematical Sciences  
+[https://github.com/sadiqDohad](https://github.com/sadiqDohad)  
+<i></i>
+</p>
+</div>
+
+<!-- jennyyuan2004 -->
+<div class="image-with-text">
+<img src="https://github.com/jennyyuan2004.png" alt="Jenny" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Jenny Yuan</big>  
+Masters of Mathematical Sciences  
+[https://github.com/jennyyuan2004](https://github.com/jennyyuan2004)  
+<i></i>
+</p>
+</div>
+
 
 
 <div class="image-with-text">
@@ -62,15 +115,6 @@ PhD Student
 </p>
 </div>
 
-<div class="image-with-text">
-<img src="https://github.com/adam2o1o.png" alt="Adam" style="width: 100px; border: 0px; border-radius: 50%"/>  
-<p style="text-align:centre">
-<big style="font-weight: bold">Adam Chan</big>  
-PhD Student  
-[https://github.com/adam2o1o](https://github.com/adam2o1o)  
-<i>Co-supervisor Jean Yang</i>
-</p>
-</div>
 
 <div class="image-with-text">
 <img src="https://github.com/Harry25R.png" alt="Harry" style="width: 100px; border: 0px; border-radius: 50%"/>  
@@ -78,7 +122,17 @@ PhD Student
 <big style="font-weight: bold">Harry Robertson</big>  
 PhD Student  
 [https://github.com/Harry25R](https://github.com/Harry25R)  
-<i>Co-supervisor Jean Yang</i>
+<i>Co-supervisor Jean Yang and Natasha Rogers</i>
+</p>
+</div>
+
+<div class="image-with-text">
+<img src="https://github.com/manojmw.png" alt="Manoj" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Manoj Wagle</big>  
+PhD Student  
+[https://github.com/manojmw](https://github.com/manojmw)  
+<i>Co-supervisor Pengyi Yang</i>
 </p>
 </div>
 
@@ -92,13 +146,54 @@ PhD Student
 </p>
 </div>
 
+
+
 <div class="image-with-text">
-<img src="images/Andrew.jpg" alt="Andrew" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<img src="https://github.com/shreyarao24.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
 <p style="text-align:centre">
-<big style="font-weight: bold">Andrew Sawyer</big>  
-Postdoc  
-[https://github.com/asawyer123](https://github.com/asawyer123)  
-<i>Co-supervisor Carl Feng</i>
+<big style="font-weight: bold">Shreya Rao</big>  
+Research Assistant  
+[https://github.com/shreyarao24](https://github.com/shreyarao24)
+</p>
+</div>
+
+
+
+<div class="image-with-text">
+<img src="https://github.com/nick-robo.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Nick Robertson</big>  
+Software Engineer  
+[https://github.com/nick-robo](https://github.com/nick-robo)
+</p>
+</div>
+
+
+
+<div class="image-with-text">
+<img src="https://github.com/angelbee2018.png" alt="Angel" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Angel Liang</big>  
+Postdoctoral Research Associate  
+[https://github.com/angelbee2018](https://github.com/angelbee2018)  
+<i>Co-supervisor Jennifer Li</i>
+</p>
+</div>
+</div>
+
+#################
+## Alumni
+################
+
+<div class="image-container">
+
+<div class="image-with-text">
+<img src="https://github.com/adam2o1o.png" alt="Adam" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Adam Chan</big>  
+PhD Student  
+[https://github.com/adam2o1o](https://github.com/adam2o1o)  
+<i>Co-supervisor Jean Yang</i>
 </p>
 </div>
 
@@ -111,20 +206,29 @@ Research Assistant
 <i></i>  
 </p>
 </div>
+
 <div class="image-with-text">
-<img src="https://github.com/nick-robo.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<img src="images/Andrew.jpg" alt="Andrew" style="width: 100px; border: 0px; border-radius: 50%"/>  
 <p style="text-align:centre">
-<big style="font-weight: bold">Nick Robertson</big>  
-Software Engineer  
-[https://github.com/nick-robo](https://github.com/nick-robo)
+<big style="font-weight: bold">Andrew Sawyer</big>  
+Postdoc  
+[https://github.com/asawyer123](https://github.com/asawyer123)  
+<i>Co-supervisor Carl Feng</i>
 </p>
 </div>
+
+
+<div class="image-with-text">
+<img src="https://github.com/Jpop3.png" alt="Shreya" style="width: 100px; border: 0px; border-radius: 50%"/>  
+<p style="text-align:centre">
+<big style="font-weight: bold">Joshua Pople</big>  
+Honours Student  
+[https://github.com/Jpop3](https://github.com/Jpop3)  
+<i></i>
+</p>
 </div>
 
 
-## Alumni
-
-<div class="image-container">
 <div class="image-with-text">
 <img src="images/Madi.png" alt="Madi" style="width: 100px; border: 0px; border-radius: 50%"/>  
 <p style="text-align:centre">
